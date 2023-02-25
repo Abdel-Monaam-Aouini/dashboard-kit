@@ -1,19 +1,17 @@
-import { Component } from 'react'
+import React from "react";
 
 // Images
-import soon from '../../assets/images/soon.jpeg'
+import soon from "../../assets/images/soon.jpeg";
 // SCSS
-import './Settings.scss'
+import "./Settings.scss";
 
-class Settings extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Settings</h1>
-        <img className="soon" src={soon} alt="Coming Soon!"/>
-      </div>
-    )
-  }
-}
+const Settings = () => {
+  return (
+    <div>
+      <h1>Settings</h1>
+      <img className="soon" src={soon} alt="Coming Soon!" />
+    </div>
+  );
+};
 
-export default Settings
+export default Settings;
