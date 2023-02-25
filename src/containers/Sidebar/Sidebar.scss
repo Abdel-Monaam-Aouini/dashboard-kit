@@ -1,0 +1,32 @@
+.sidebar {
+  color: #eee;
+  background: #363740;
+  min-height: 100vh;
+  padding: 30px 0;
+
+  .logo-holder {
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    margin-bottom: 63px ;
+
+    .sidebar-logo {
+      margin-right: 14px;
+    }
+    .sidebar-lead {
+      opacity: 0.7;
+      color: #A4A6B3;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.4px;
+    }
+  }
+
+  .line {
+    display: block;
+    margin: 16px 0;
+    border-top: 1px solid rgba(167, 167, 167, 0.144);
+  }
+}

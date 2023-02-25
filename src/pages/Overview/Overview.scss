@@ -1,0 +1,281 @@
+.overview-wrap {
+  padding: 0 30px;
+  header {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    grid-area: '. . . .';
+    margin-bottom: 30px;
+
+    button {
+      padding: 32px;
+      background: #fff;
+      border-radius: 8px;
+      border: 1px solid #DFE0EB;
+      transition: all 0.3s ease;
+
+      &:hover, &.active {
+        border: 1px solid #3751FF;
+        h3, span{
+          color: #3751FF;
+        }
+      }
+
+      h3, span {
+        letter-spacing: 0.2px;
+        font-weight: 700;
+        transition: all 0.3s ease;
+      }
+      h3 {
+        color: #9FA2B4;
+        font-size: 19px;
+        margin-bottom: 12px;
+      }
+      span {
+        color: #252733;
+        font-size: 40px;
+      }
+    }
+  }
+
+  main {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 3fr 1.1fr;
+    grid-template-rows: 1fr;
+    grid-area: '. .';
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #DFE0EB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    .diagraph {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+
+      .diagram-caption {
+        width: 100%;
+        padding: 32px;
+        .diagram-title {
+          font-size: 19px;
+          color: #252733;
+        }
+        .diagram-subtitle-wrap {
+          display: flex;
+          align-items: center;
+          margin-top: 8px;
+          font-size: 12px;
+          color: #9FA2B4;
+          .diagram-subtitle {
+            margin-right: auto;
+          }
+          .today,
+          .yesterday {
+            position: relative;
+            margin-left: 85px;
+            &::before {
+              position: absolute;
+              top: 5px;
+              left: -30px;
+              content: '';
+              width: 20px;
+              border-radius: 2px;
+              border: 2px solid #3751FF;
+            }
+          }
+          .yesterday {
+            &::before {
+              border-color: #DFE0EB;
+            }
+          }
+        }
+      }
+    }
+    .statistics {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      .stat-item {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #DFE0EB;
+        h4 {
+          color: #9FA2B4;
+          font-weight: normal;
+          font-size: 16px;
+          margin-bottom: 6px;
+        }
+        span {
+          color: #252733;
+          line-height: 30px;
+          font-weight: bold;
+          font-size: 24px;
+        }
+        &:first-child {
+          border-top: none;
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+
+  footer {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 0 60px;
+
+    .unresolved-ticket,
+    .tasks {
+      border: 1px solid #DFE0EB;
+      border-radius: 8px;
+      background: #fff;
+    }
+    .unresolved-ticket {
+      border-radius: 8px;
+      overflow: hidden;
+      .unresolved-ticket-lead {
+        padding: 32px 32px 20px;
+        .title {
+          display: flex;
+          h3 {
+            color: #252733;
+            font-size: 19px;
+            margin-right: auto;
+          }
+          button {
+            color: #3751FF;
+            font-size: 14px;
+            letter-spacing: 0.3px;
+          }
+        }
+        .subtitle {
+          p {
+            font-size: 12px;
+            line-height: 20px;
+            color: #9FA2B4;
+            span {
+              color: #4B506D;
+            }
+          }
+        }
+      }
+      .unresolved-ticket-body {
+        .item {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px 30px;
+          font-size: 15px;
+          line-height: 20px;
+          border-bottom: 1px solid #DFE0EB;
+          transition: all 0.3s ease;
+          &:hover {
+            background: #f3f3f3;
+          }
+          &:last-child {
+            border: none;
+          }
+          p {
+            color: #252733;
+            margin-right: auto;
+          }
+          span {
+            color: #9FA2B4;
+          }
+        }
+      }
+    }
+    .tasks {
+      .tasks-lead {
+        padding: 32px 32px 20px;
+        .title {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          h3 {
+            color: #252733;
+          }
+          button {
+            color: #3751FF;
+            font-size: 14px;
+            letter-spacing: 0.3px;
+          }
+        }
+        .subtitle {
+          color: #9FA2B4;
+          font-size: 12px;
+        }
+      }
+      .tasks-body {
+        #add-task-form {
+          .add-task {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 17px;
+            input {
+              width: 86%;
+              padding: 10px 20px 15px;
+              border: none;
+              outline: none;
+              border-bottom: 1px solid transparent;
+              &:focus {
+                border-bottom-color: aquamarine;
+              }
+            }
+            button {
+              background: #F0F1F7;
+              color: #333;
+              border-radius: 8px;
+              font-size: 19px;
+              padding: 4px 9px;
+            }
+          }
+        }
+        .checkboxes {
+          .check-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 25px 17px;
+            border-top: 1px solid #DFE0EB;
+            .checkbox {
+              display: flex;
+              color: #252733;
+              font-size: 15px;
+              input {
+                margin-right: 12px;
+              }
+            }
+            span {
+              font-size: 14px;
+              padding: 5px 12px;
+              border-radius: 8px;
+              color: #fff;
+            }
+            .urgent {
+              background: #FEC400;
+            }
+            .new {
+              background: #29CC97;
+            }
+            .default {
+              color: #9FA2B4;
+              background: #f0f1f7;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.count-holder {
+  color: #222;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+
+  button {
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 5px 5px 0 0;
+    border-radius: 5px;
+    color: #eee;
+    background: #4c6dff;
+    transition: all 0.3s ease;
+    &:hover {
+      background: #2c53ff;
+    }
+    &:active {
+      background: #1634bd;
+    }
+  }
+}

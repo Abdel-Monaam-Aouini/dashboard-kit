@@ -1,0 +1,52 @@
+.ticket-list {
+  margin: 54px 30px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #dfe0eb;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+  .tickets-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    .filter-wrap {
+      display: flex;
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        padding: 5px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+.ticket-lead {
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr 1.2fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". .";
+  align-items: center;
+  padding: 15px 20px;
+
+  h4 {
+    color: #9fa2b4;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+  }
+  .right-side {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: 3fr 2.5fr 1fr 0.7fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". .";
+    justify-content: space-between;
+    align-items: center;
+  }
+}
