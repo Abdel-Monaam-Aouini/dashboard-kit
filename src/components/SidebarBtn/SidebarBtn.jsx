@@ -9,12 +9,15 @@ class SidebarBtn extends Component {
 
     return (
       <div>
-        <button className={`sidebar-btn ${active ? 'active' : ''}`} onClick={onClick}>
-          <div class="btn-icon">{icon}</div>
-          <span class="title">{title}</span>
+        <button
+          className={`sidebar-btn ${active ? "active" : ""}`}
+          onClick={onClick}
+        >
+          <div className="btn-icon">{icon}</div>
+          <span className="title">{title}</span>
         </button>
       </div>
-    )
+    );
   }
 }
 

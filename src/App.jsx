@@ -1,49 +1,32 @@
-import { Component } from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route } from 'react-router-dom'
+import React, { lazy, Suspense, useState } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Containers
-import Sidebar from './containers/Sidebar/Sidebar'
-import Toolbar from './containers/Toolbar/Toolbar'
+const Sidebar = lazy(() => import("./containers/Sidebar/Sidebar"));
+const Toolbar = lazy(() => import("./containers/Toolbar/Toolbar"));
 // Pages
-import Ideas from './pages/Ideas/Ideas'
-import Agents from './pages/Agents/Agents'
-import Tickets from './pages/Tickets/Tickets'
-import Contacts from './pages/Contacts/Contacts'
-import Articles from './pages/Articles/Articles'
-import Overview from './pages/Overview/Overview'
-import Settings from './pages/Settings/Settings'
-import Subscription from './pages/Subscription/Subscription'
+const Ideas = lazy(() => import("./pages/Ideas/Ideas"));
+const Agents = lazy(() => import("./pages/Agents/Agents"));
+const Tickets = lazy(() => import("./pages/Tickets/Tickets"));
+const Contacts = lazy(() => import("./pages/Contacts/Contacts"));
+const Articles = lazy(() => import("./pages/Articles/Articles"));
+const Overview = lazy(() => import("./pages/Overview/Overview"));
+const Settings = lazy(() => import("./pages/Settings/Settings"));
+const Subscription = lazy(() => import("./pages/Subscription/Subscription"));
 
 // TODO: pages ? index.js | Sidebar settings border-top
 
-class App extends Component {
-  constructor() {
-    super()
+const App = () => {
+  const [activePage, setActivePage] = useState("");
 
-    this.state = {
-      activePage: '',
-    }
-
-    this.setActivePage = this.setActivePage.bind(this)
-  }
-
-  setActivePage(page) {
-    this.setState({
-      activePage: page,
-    })
-  }
-
-  render() {
-    return (
-      <Router>
-        <div className="app">
-          <Sidebar activePage={this.state.activePage} setActivePage={this.setActivePage} />
+  return (
+    <Router>
+      <div className="app">
+        <Suspense fallback={<div>loading ...</div>}>
+          <Sidebar activePage={activePage} setActivePage={setActivePage} />
 
           <div className="content">
-            <Toolbar activePage={this.state.activePage} />
+            <Toolbar activePage={activePage} />
 
             <Switch>
               <Route path="/overview" component={Overview} />
@@ -56,10 +39,10 @@ class App extends Component {
               <Route path="/subscription" component={Subscription} />
             </Switch>
           </div>
-        </div>
-      </Router>
-    )
-  }
-}
+        </Suspense>
+      </div>
+    </Router>
+  );
+};
 
-export default App
+export default App;

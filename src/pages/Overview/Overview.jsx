@@ -29,7 +29,7 @@ const Overview = () => {
           <div className="diagraph">
             <div className="diagram-caption">
               <h3 className="diagram-title">Today's trends</h3>
-              <div class="diagram-subtitle-wrap">
+              <div className="diagram-subtitle-wrap">
                 <p className="diagram-subtitle">
                   as of 25 March 2021, 09:41 PM
                 </p>
@@ -128,7 +128,7 @@ const Overview = () => {
                 </div>
                 <div className="check-item">
                   <div className="checkbox">
-                    <input type="checkbox" checked />
+                    <input type="checkbox" defaultChecked />
                     <p>Update ticket report</p>
                   </div>
                   <span className="default">Default</span>

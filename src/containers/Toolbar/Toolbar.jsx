@@ -17,14 +17,16 @@ class Toolbar extends Component {
           <h2>{activePage}</h2>
         </div>
         <div className="right-side">
-          <div class="search">
-            <div class="search-bar-wrap">
-              <div class="search-bar">
+          <div className="search">
+            <div className="search-bar-wrap">
+              <div className="search-bar">
                 <input type="text" placeholder="Search..." required />
-                <div class="search-icon"></div>
+                <div className="search-icon"></div>
               </div>
             </div>
-            <button className="notification-btn">{<TicketsNotificationIcon/>}</button>
+            <button className="notification-btn">
+              {<TicketsNotificationIcon />}
+            </button>
           </div>
           <button className="profile-btn">
             <h4>Jones Ferdinand</h4>
@@ -32,7 +34,7 @@ class Toolbar extends Component {
           </button>
         </div>
       </div>
-    )
+    );
   }
 }
 
