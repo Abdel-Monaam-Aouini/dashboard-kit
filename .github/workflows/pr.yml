@@ -38,9 +38,7 @@ jobs:
         run: npm run test
   # Single deploy job since we're just deploying
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    environment: testing
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
