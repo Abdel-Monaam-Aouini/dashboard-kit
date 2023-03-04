@@ -18,5 +18,5 @@ export default defineConfig({
   build: {
     target: "esnext",
   },
-  base: "/dashboard-kit/",
+  base: "https://abdel-monaam-aouini.github.io/dashboard-kit/",
 });
