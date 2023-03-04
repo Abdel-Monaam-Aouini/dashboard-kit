@@ -69,11 +69,8 @@ jobs:
     environment: testing
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
-      - name: ⚙️ Checkout
+      - name: Checkout
         uses: actions/checkout@v3
-        with:
-          DOPPLER_TOKEN: ${{ secrets.DOPPLER_SERVICE_TOKEN }}
-          CONFIGURATION: testing
       - name: Dependabot metadata
         id: dependabot-metadata
         uses: dependabot/fetch-metadata@v1.1.1
