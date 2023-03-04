@@ -30,12 +30,11 @@ jobs:
       - name: ⚙️ Checkout
         uses: actions/checkout@v3
       - name: ⚙️ Install dependencies
-        run: npm ci
-      - name: github identity
-        run: |
-          git config --global user.email "clemonaam@gmail.com"
-          git config --global user.name "Abdel-Monaam-Aouini"
+        run: npm ci 
       - name: ⚙️ Build the dashboard
         run: npm run build
       - name: 🚀 deploy
-        run: npm run deploy
+        run: |
+          git config --global user.email "clemonaam@gmail.com"
+          git config --global user.name "abdel-monaam-aouini"
+          npm run deploy
