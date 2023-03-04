@@ -27,6 +27,10 @@ jobs:
     runs-on: ubuntu-22.04
     environment: production
     steps:
+      - name: ⚙️ Github identity
+      - uses: actions/labeler@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
       - name: ⚙️ Checkout
         uses: actions/checkout@v3
       - name: ⚙️ Install dependencies
@@ -34,7 +38,5 @@ jobs:
       - name: ⚙️ Build the dashboard
         run: npm run build
       - name: 🚀 deploy
-        run: |
-          git config --global user.email "clemonaam@gmail.com"
-          git config --global user.name "abdel-monaam-aouini"
-          npm run deploy
+        run: npm run deploy
+        
