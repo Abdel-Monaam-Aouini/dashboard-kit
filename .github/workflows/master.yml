@@ -20,7 +20,7 @@ jobs:
       - name: 🔎 Run tests
         run: npm run test
   deploy:
-    name: deploy
+    name: Branch deploy
     runs-on: ubuntu-22.04
     environment: production
     steps:
@@ -30,10 +30,15 @@ jobs:
         run: npm ci 
       - name: 👌🏻 Build the dashboard
         run: npm run build
-      - name: 🚀 deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy to GitHub Page
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
         with:
-          folder: build # The folder the action should deploy.
+          target_branch: gh-pages
+          build_dir: build
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: your page
-        run: echo "https://abdel-monaam-aouini.github.io/dashboard-kit/"
+        run: echo "https://abdel-monaam-aouini.github.io/dashboard-kit"
         
