@@ -20,7 +20,7 @@ jobs:
       - name: 🔎 Run tests
         run: npm run test
   deploy:
-    name: Branch deploy
+    name: deploy
     runs-on: ubuntu-22.04
     environment: production
     steps:
