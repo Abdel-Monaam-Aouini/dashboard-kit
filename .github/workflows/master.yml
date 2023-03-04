@@ -1,0 +1,39 @@
+name: Master
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-22.04
+    environment: testing
+    steps:
+      - name: 👌🏻 Checkout
+        uses: actions/checkout@v3
+      - name: 👌🏻 Setup and build
+        run: |
+          npm ci
+          npm run build
+          npm run preview &
+      - name: 🔎 Run tests
+        run: npm run test
+  deploy:
+    name: Branch deploy
+    runs-on: ubuntu-22.04
+    environment: production
+    steps:
+      - name: 🥸 Checkout
+        uses: actions/checkout@v3
+      - name: 😴 Install dependencies
+        run: npm ci 
+      - name: 👌🏻 Build the dashboard
+        run: npm run build
+      - name: 🚀 deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # The folder the action should deploy.
+      - name: your page
+        run: echo "https://abdel-monaam-aouini.github.io/dashboard-kit/"
+        
