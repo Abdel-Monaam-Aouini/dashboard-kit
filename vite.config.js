@@ -18,5 +18,5 @@ export default defineConfig({
   build: {
     target: "esnext",
   },
-  base: "./",
+  base: "/dashboard-kit",
 });
