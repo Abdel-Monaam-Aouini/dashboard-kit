@@ -69,27 +69,22 @@ jobs:
     environment: testing
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
-      - name: ⚙️ Checkout
+      - name: Checkout
         uses: actions/checkout@v3
-      - name: ⚙️ Load Doppler env variables
-        uses: ./.github/shared-actions/setup-doppler
-        with:
-          DOPPLER_TOKEN: ${{ secrets.DOPPLER_SERVICE_TOKEN }}
-          CONFIGURATION: testing
       - name: Dependabot metadata
         id: dependabot-metadata
         uses: dependabot/fetch-metadata@v1.1.1
         with:
-          github-token: ${{ env.GH_TOKEN }}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Approve the PR
         run: gh pr review --approve "$PR_URL"
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
-          GITHUB_TOKEN: ${{ env.GH_TOKEN }}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Enable auto-merge for Dependabot PRs
         if: ${{ steps.dependabot-metadata.outputs.update-type != 'version-update:semver-major' }}
         run: gh pr merge --auto --squash "$PR_URL"
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
-          GITHUB_TOKEN: ${{ env.GH_TOKEN }}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         
