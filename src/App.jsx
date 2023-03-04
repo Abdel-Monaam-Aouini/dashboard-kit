@@ -27,16 +27,15 @@ const App = () => {
 
           <div className="content">
             <Toolbar activePage={activePage} />
-
             <Switch>
-              <Route path="/overview" component={Overview} />
-              <Route path="/tickets" component={Tickets} />
-              <Route path="/ideas" component={Ideas} />
-              <Route path="/contacts" component={Contacts} />
-              <Route path="/agents" component={Agents} />
-              <Route path="/articles" component={Articles} />
-              <Route path="/settings" component={Settings} />
-              <Route path="/subscription" component={Subscription} />
+              <Route exact path="/overview" component={Overview} />
+              <Route exact path="/tickets" component={Tickets} />
+              <Route exact path="/ideas" component={Ideas} />
+              <Route exact path="/contacts" component={Contacts} />
+              <Route exact path="/agents" component={Agents} />
+              <Route exact path="/articles" component={Articles} />
+              <Route exact path="/settings" component={Settings} />
+              <Route exact path="/subscription" component={Subscription} />
             </Switch>
           </div>
         </Suspense>
