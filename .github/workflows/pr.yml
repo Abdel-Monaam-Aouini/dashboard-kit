@@ -1,0 +1,24 @@
+name: PR
+
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-22.04
+    environment: testing
+    steps:
+      - name: ⚙️ Checkout
+        uses: actions/checkout@v3
+      - name: ⚙️ Setup and build
+        run: |
+          npm ci
+          npm run build
+          npm run preview &
+      - name: 🔎 Run tests
+        run: npm run test
