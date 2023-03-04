@@ -32,8 +32,9 @@ jobs:
       - name: ⚙️ Install dependencies
         run: npm ci
       - name: github identity
-        run: git config --global user.email "clemonaam@gmail.com"
-        run: git config --global user.name "Abdel-Monaam-Aouini"
+        run: |
+          git config --global user.email "clemonaam@gmail.com"
+          git config --global user.name "Abdel-Monaam-Aouini"
       - name: ⚙️ Build the dashboard
         run: npm run build
       - name: 🚀 deploy
