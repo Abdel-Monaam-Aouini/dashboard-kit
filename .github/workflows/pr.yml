@@ -37,9 +37,11 @@ jobs:
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          target_branch: gh-pages
+          target_branch: master
           build_dir: build
           jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: your page
         run: echo "https://abdel-monaam-aouini.github.io/dashboard-kit"
         
