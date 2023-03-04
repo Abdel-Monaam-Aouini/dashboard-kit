@@ -2,7 +2,6 @@
   "name": "dashboard-kit",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Abdel-Monaam-Aouini.github.io/dashboard-kit",
   "type": "module",
   "dependencies": {
     "react": "^17.0.1",
@@ -37,9 +36,9 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "3.1.0",
-    "gh-pages": "^5.0.0",
-    "sass": "^1.58.3",
+    "gh-pages": "5.0.0",
+    "sass": "1.58.3",
     "vite": "4.1.1",
-    "vitest": "^0.29.2"
+    "vitest": "0.29.2"
   }
 }

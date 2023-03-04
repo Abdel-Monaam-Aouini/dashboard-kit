@@ -33,10 +33,13 @@ jobs:
         run: npm ci 
       - name: 👌🏻 Build the dashboard
         run: npm run build
-      - name: 🚀 deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
         with:
-          folder: build # The folder the action should deploy.
+          target_branch: gh-pages
+          build_dir: doc-site/build
+          jekyll: false
       - name: your page
-        run: echo "https://abdel-monaam-aouini.github.io/dashboard-kit/"
+        run: echo "https://abdel-monaam-aouini.github.io/dashboard-kit"
         
