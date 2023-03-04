@@ -1,0 +1,1 @@
+import{a as o,j as s}from"./index-eb7f0ff0.js";import{s as i}from"./soon-92bd7c1b.js";const t=()=>o("div",{children:[s("h1",{children:"Subscription"}),s("img",{className:"soon",src:i,alt:"Coming Soon!"})]});export{t as default};
