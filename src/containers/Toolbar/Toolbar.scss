@@ -43,7 +43,7 @@ $size: 20px;
             height: 44px;
             padding: 10px 20px;
             font-size: 18px;
-            border: $size/10 solid transparent;
+            border: $size*0.1 solid transparent;
             border-radius: 44px;
             cursor: pointer;
             color: transparent;
@@ -59,8 +59,8 @@ $size: 20px;
             }
             
             &:hover {
-              border: $size/10 solid #FFF;
-              box-shadow: 0 0 $size/10 $size/10 #EEE;
+              border: $size*0.1 solid #FFF;
+              box-shadow: 0 0 $size*0.1 $size*0.1 #EEE;
             }
             
             &:focus, &:valid {
@@ -69,7 +69,7 @@ $size: 20px;
               cursor: auto;
               color: #111;
               background-color: #FFF;
-              border: $size/10 solid #C5C7CD;
+              border: $size*0.1 solid #C5C7CD;
               
               &::placeholder {
                 color: #999;
@@ -95,16 +95,16 @@ $size: 20px;
           width: $size;
           height: $size;
           border-radius: 50%;
-          border: $size/10 solid #C5C7CD;
+          border: $size*0.1 solid #C5C7CD;
           z-index: -1;
           
           &:after {
             content: '';
-            height: $size/10;
-            width: $size/2;
+            height: $size*0.1;
+            width: $size*0.5;
             position: absolute;
-            top: $size/2 + $size/4*1.414 + $size/10;
-            left: $size/2 + $size/4*1.414;
+            top: $size*0.5 + $size*0.25*1.414 + $size*0.1;
+            left: $size*0.5 + $size*0.25*1.414;
             transform: rotate(45deg);
             background-color: #C5C7CD;
             border-radius: 10px;
