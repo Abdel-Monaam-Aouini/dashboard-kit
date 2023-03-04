@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-22.04
     environment: testing
     steps:
-      - name: ⚙️ Checkout
+      - name: 👌🏻 Checkout
         uses: actions/checkout@v3
-      - name: ⚙️ Setup and build
+      - name: 👌🏻 Setup and build
         run: |
           npm ci
           npm run build
@@ -27,15 +27,11 @@ jobs:
     runs-on: ubuntu-22.04
     environment: production
     steps:
-      - name: ⚙️ Github identity
-      - uses: actions/labeler@v2
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-      - name: ⚙️ Checkout
+      - name: 🥸 Checkout
         uses: actions/checkout@v3
-      - name: ⚙️ Install dependencies
+      - name: 😴 Install dependencies
         run: npm ci 
-      - name: ⚙️ Build the dashboard
+      - name: 👌🏻 Build the dashboard
         run: npm run build
       - name: 🚀 deploy
         run: npm run deploy
