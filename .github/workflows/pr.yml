@@ -33,5 +33,5 @@ jobs:
         run: npm ci
       - name: ⚙️ Build the dashboard
         run: npm run build
-      - name: 📤 deploy
+      - name: 🚀 deploy
         run: npm run deploy
