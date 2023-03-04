@@ -33,7 +33,7 @@ jobs:
       - name: 🚀 deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist # The folder the action should deploy.
+          folder: build # The folder the action should deploy.
       - name: your page
         run: echo "https://abdel-monaam-aouini.github.io/dashboard-kit/"
         
