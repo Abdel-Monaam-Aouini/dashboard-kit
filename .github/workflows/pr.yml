@@ -24,7 +24,7 @@ concurrency:
 jobs:
   test:
     name: Test
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     environment: testing
     steps:
       - name: 👌🏻 Checkout
@@ -38,7 +38,7 @@ jobs:
         run: npm run test
   deploy:
     name: Branch deploy
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     environment: production
     steps:
       - name: 🥸 Checkout
@@ -61,7 +61,7 @@ jobs:
 
   set-automerge:
     name: Approve and automerge (only dependanbot PRs)
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     environment: testing
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
