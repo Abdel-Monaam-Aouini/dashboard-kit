@@ -7,8 +7,8 @@ on:
       - edited
       - synchronize
 
-# Allows you to run this workflow manually from the Actions tab
-workflow_dispatch:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 # Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
 permissions:
