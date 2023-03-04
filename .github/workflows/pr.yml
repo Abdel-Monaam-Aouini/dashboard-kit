@@ -38,7 +38,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: gh-pages
-          build_dir: doc-site/build
+          build_dir: build
           jekyll: false
       - name: your page
         run: echo "https://abdel-monaam-aouini.github.io/dashboard-kit"
