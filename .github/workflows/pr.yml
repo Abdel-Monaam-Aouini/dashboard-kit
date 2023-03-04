@@ -34,5 +34,7 @@ jobs:
       - name: 👌🏻 Build the dashboard
         run: npm run build
       - name: 🚀 deploy
-        run: npm run deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # The folder the action should deploy.
         
