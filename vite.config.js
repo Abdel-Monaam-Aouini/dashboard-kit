@@ -11,7 +11,9 @@ export default defineConfig({
   preview: {
     port: 3500,
   },
-
+  test: {
+    globals: true,
+  },
   cacheDir: ".vite",
   build: {
     target: "esnext",
