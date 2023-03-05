@@ -5,3 +5,7 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
+    commit-message:
+      prefix: dependency
+      prefix-development: dependency
+    open-pull-requests-limit: 99
