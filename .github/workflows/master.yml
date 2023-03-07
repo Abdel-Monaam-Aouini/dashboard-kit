@@ -47,8 +47,8 @@ jobs:
       - name: Create release
         run: npx semantic-release --no-ci --debug
         env:
-          GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
-          message: "version bumped to ${nextRelease.version}"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: "chore(release): version bumped to ${nextRelease.version}"
 
   # Single deploy job since we're just deploying
   deploy:
