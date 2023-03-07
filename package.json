@@ -35,9 +35,12 @@
     ]
   },
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
     "@vitejs/plugin-react": "3.1.0",
     "gh-pages": "5.0.0",
     "sass": "1.58.3",
+    "semantic-release": "^20.1.1",
     "vite": "4.1.4",
     "vitest": "0.29.2"
   }
