@@ -45,7 +45,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - run: npm ci --include=dev
       - name: Create release
-        run: npx semantic-release --no-ci --debug
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           message: "chore(release): version bumped to ${nextRelease.version}"
