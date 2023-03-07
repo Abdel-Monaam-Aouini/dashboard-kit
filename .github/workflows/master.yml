@@ -48,7 +48,7 @@ jobs:
       - name: Create release
         run: npx semantic-release --no-ci --debug
         env:
-          GH_TOKEN: ${{ env.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
           message: "version bumped to ${nextRelease.version}"
 
   # Single deploy job since we're just deploying
