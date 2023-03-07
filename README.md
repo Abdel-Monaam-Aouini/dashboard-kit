@@ -6,5 +6,9 @@ Refactor dashboard-kit from class components to function components
 
 Some fun :D :D
 
-adding CICD for testing & deploy & auto-merge dependabot :)
+adding CICD for :
+testing
+deploy
+auto-merge dependabot
+semantic release
 
