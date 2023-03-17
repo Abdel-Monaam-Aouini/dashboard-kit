@@ -14,7 +14,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +39,7 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.7",
     "@vitejs/plugin-react": "3.1.0",
+    "@vitest/coverage-istanbul": "^0.29.3",
     "gh-pages": "5.0.0",
     "sass": "1.58.3",
     "semantic-release": "^20.1.1",

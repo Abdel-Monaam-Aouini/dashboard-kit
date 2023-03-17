@@ -13,6 +13,9 @@ export default defineConfig({
   },
   test: {
     globals: true,
+    coverage: {
+      provider: "istanbul", // or 'c8'
+    },
   },
   cacheDir: ".vite",
   build: {

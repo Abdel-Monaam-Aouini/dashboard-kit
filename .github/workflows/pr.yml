@@ -36,6 +36,10 @@ jobs:
           npm run preview &
       - name: 🔎 Run tests
         run: npm run test
+      - name: Coverage
+        run: npm run coverage
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
   # Single deploy job since we're just deploying
   deploy:
     environment: testing
