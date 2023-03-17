@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://Abdel-Monaam-Aouini.github.io/dashboard-kit/index.html",
-  "type": "module",
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
