@@ -31,7 +31,7 @@ jobs:
       - name: Coverage
         run: npm run coverage
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v2
+        uses: codecov/codecov-action@v1
   tag:
     name: Create a tag
     runs-on: ubuntu-latest
