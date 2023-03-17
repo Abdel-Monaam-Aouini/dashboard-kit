@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.4.3...v1.5.0) (2023-03-17)
+
+
+### Features
+
+* test feat ([433bae5](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/433bae5b75a3f887a15cd6afac2cf511f93608fc))
+
 ## [1.4.3](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.4.2...v1.4.3) (2023-03-17)
 
 
