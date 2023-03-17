@@ -15,7 +15,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "style": "standard --fix"
+    "style": "standard src/**/*.js --fix"
   },
   "eslintConfig": {
     "extends": [

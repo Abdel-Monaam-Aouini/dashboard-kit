@@ -20,6 +20,5 @@ export default defineConfig({
   cacheDir: '.vite',
   build: {
     target: 'esnext'
-  },
-  base: 'https://abdel-monaam-aouini.github.io/dashboard-kit/'
+  }
 })
