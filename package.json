@@ -3,12 +3,6 @@
   "version": "1.4.3",
   "private": true,
   "homepage": "https://Abdel-Monaam-Aouini.github.io/dashboard-kit/index.html",
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0",
-    "web-vitals": "^3.3.0"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -34,6 +28,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-router-dom": "5.2.0",
+    "web-vitals": "3.3.0"
   },
   "devDependencies": {
     "@semantic-release/git": "10.0.1",
