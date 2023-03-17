@@ -1,0 +1,15 @@
+coverage:
+  require_ci_to_pass: yes
+  status:
+    project:
+      default:
+        informational: true
+    patch:
+      default:
+        enabled: no
+github_checks:
+  annotations: false
+codecov:
+  bot: coverage-bot
+  notify:
+    wait_for_ci: yes
