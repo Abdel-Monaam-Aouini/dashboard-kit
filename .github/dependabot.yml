@@ -6,6 +6,6 @@ updates:
     schedule:
       interval: 'daily'
     commit-message:
-      prefix: dependency
-      prefix-development: dependency
+      prefix: build(npm)
+      prefix-development: build(npm)
     open-pull-requests-limit: 99
