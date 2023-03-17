@@ -67,6 +67,22 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+  lighthouse:
+    name: Lighthouse CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Audit URLs using Lighthouse
+        uses: treosh/lighthouse-ci-action@v9
+        with:
+          urls: |
+            https://abdel-monaam-aouini.github.io/agents
+            https://abdel-monaam-aouini.github.io/overview
+            https://abdel-monaam-aouini.github.io/tickets
+            https://abdel-monaam-aouini.github.io/ideas
+            https://abdel-monaam-aouini.github.io/contacts
+          uploadArtifacts: true
+          temporaryPublicStorage: true
 
   set-automerge:
     name: Approve and automerge (only dependanbot PRs)
