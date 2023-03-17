@@ -6,6 +6,6 @@ updates:
     schedule:
       interval: 'daily'
     commit-message:
-      prefix: build
-      prefix-development: build
+      prefix: feat
+      prefix-development: feat
     open-pull-requests-limit: 99
