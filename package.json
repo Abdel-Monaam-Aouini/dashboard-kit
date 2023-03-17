@@ -2,7 +2,7 @@
   "name": "dashboard-kit",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Abdel-Monaam-Aouini.github.io/dashboard-kit",
+  "homepage": "https://Abdel-Monaam-Aouini.github.io/dashboard-kit/index.html",
   "type": "module",
   "dependencies": {
     "react": "^17.0.1",
@@ -40,7 +40,6 @@
     "@semantic-release/github": "^8.0.7",
     "@vitejs/plugin-react": "3.1.0",
     "@vitest/coverage-istanbul": "^0.29.3",
-    "gh-pages": "5.0.0",
     "sass": "1.59.3",
     "semantic-release": "^20.1.1",
     "vite": "4.2.0",
