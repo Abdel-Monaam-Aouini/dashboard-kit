@@ -1,4 +1,5 @@
 # dashboard-kit
+[![codecov](https://codecov.io/gh/Abdel-Monaam-Aouini/dashboard-kit/branch/master/graph/badge.svg?token=18TX7UYJTB)](https://codecov.io/gh/Abdel-Monaam-Aouini/dashboard-kit)
 
 [![Master](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/actions/workflows/master.yml/badge.svg)](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/actions/workflows/master.yml)
 
