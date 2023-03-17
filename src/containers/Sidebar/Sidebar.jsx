@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-import SidebarBtn from "../../components/SidebarBtn/SidebarBtn";
+import SidebarBtn from '../../components/SidebarBtn/SidebarBtn'
 // SVG Icons
-import MainLogo from "../../assets/images/logo.svg";
+import MainLogo from '../../assets/images/logo.svg'
 import {
   SubsIcon,
   IdeaIcon,
@@ -12,86 +12,86 @@ import {
   PeopleIcon,
   ArticleIcon,
   SettingIcon,
-  OverviewIcon,
-} from "../../assets/Icons/Icons";
+  OverviewIcon
+} from '../../assets/Icons/Icons'
 // SCSS
-import "./Sidebar.scss";
+import './Sidebar.scss'
 
 const Sidebar = ({ activePage, setActivePage }) => {
   return (
-    <div className="sidebar">
-      <div className="logo-holder">
-        <img className="sidebar-logo" src={MainLogo} alt="Logo" />
-        <h1 className="sidebar-lead">Dashboard Kit</h1>
+    <div className='sidebar'>
+      <div className='logo-holder'>
+        <img className='sidebar-logo' src={MainLogo} alt='Logo' />
+        <h1 className='sidebar-lead'>Dashboard Kit</h1>
       </div>
 
-      <Link to="/overview">
+      <Link to='/overview'>
         <SidebarBtn
-          title="Overview"
+          title='Overview'
           icon={<OverviewIcon />}
-          active={activePage === "overview"}
-          onClick={() => setActivePage("overview")}
+          active={activePage === 'overview'}
+          onClick={() => setActivePage('overview')}
         />
       </Link>
-      <Link to="/tickets">
+      <Link to='/tickets'>
         <SidebarBtn
-          title="Tickets"
+          title='Tickets'
           icon={<TicketIcon />}
-          active={activePage === "tickets"}
-          onClick={() => setActivePage("tickets")}
+          active={activePage === 'tickets'}
+          onClick={() => setActivePage('tickets')}
         />
       </Link>
-      <Link to="/ideas">
+      <Link to='/ideas'>
         <SidebarBtn
-          title="Ideas"
+          title='Ideas'
           icon={<IdeaIcon />}
-          active={activePage === "ideas"}
-          onClick={() => setActivePage("ideas")}
+          active={activePage === 'ideas'}
+          onClick={() => setActivePage('ideas')}
         />
       </Link>
-      <Link to="/contacts">
+      <Link to='/contacts'>
         <SidebarBtn
-          title="Contacts"
+          title='Contacts'
           icon={<PeopleIcon />}
-          active={activePage === "contacts"}
-          onClick={() => setActivePage("contacts")}
+          active={activePage === 'contacts'}
+          onClick={() => setActivePage('contacts')}
         />
       </Link>
-      <Link to="/agents">
+      <Link to='/agents'>
         <SidebarBtn
-          title="Agents"
+          title='Agents'
           icon={<AgentIcon />}
-          active={activePage === "agents"}
-          onClick={() => setActivePage("agents")}
+          active={activePage === 'agents'}
+          onClick={() => setActivePage('agents')}
         />
       </Link>
-      <Link to="/articles">
+      <Link to='/articles'>
         <SidebarBtn
-          title="Articles"
+          title='Articles'
           icon={<ArticleIcon />}
-          active={activePage === "articles"}
-          onClick={() => setActivePage("articles")}
+          active={activePage === 'articles'}
+          onClick={() => setActivePage('articles')}
         />
       </Link>
-      <span className="line"></span>
-      <Link to="/settings">
+      <span className='line' />
+      <Link to='/settings'>
         <SidebarBtn
-          title="Settings"
+          title='Settings'
           icon={<SettingIcon />}
-          active={activePage === "settings"}
-          onClick={() => setActivePage("settings")}
+          active={activePage === 'settings'}
+          onClick={() => setActivePage('settings')}
         />
       </Link>
-      <Link to="/subscription">
+      <Link to='/subscription'>
         <SidebarBtn
-          title="Subscription"
+          title='Subscription'
           icon={<SubsIcon />}
-          active={activePage === "subscription"}
-          onClick={() => setActivePage("subscription")}
+          active={activePage === 'subscription'}
+          onClick={() => setActivePage('subscription')}
         />
       </Link>
     </div>
-  );
-};
+  )
+}
 
-export default Sidebar;
+export default Sidebar
