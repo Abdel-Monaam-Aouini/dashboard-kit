@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.6.0...v1.7.0) (2023-03-21)
+
+
+### Features
+
+* bump @vitest/coverage-istanbul from 0.29.3 to 0.29.7 ([bc4fcd1](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/bc4fcd18099450d8ffb5071193d44ff7d3274448))
+
 # [1.6.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.5.0...v1.6.0) (2023-03-18)
 
 
