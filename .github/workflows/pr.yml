@@ -104,11 +104,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: [deploy]
     steps:
-      - name: Approve a PR
-        run: gh pr review --approve "$PR_URL"
-        env:
-          PR_URL: ${{github.event.pull_request.html_url}}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - id: automerge
         name: automerge
         uses: "pascalgn/automerge-action@v0.15.6"
@@ -118,6 +113,7 @@ jobs:
           MERGE_LABELS: "automerge,!work in progress"
           MERGE_REMOVE_LABELS: "automerge"
           MERGE_METHOD: "squash"
+          MERGE_REQUIRED_APPROVALS: "0"
       - name: feedback
         if: steps.automerge.outputs.mergeResult == '"merged"'
         run: |
