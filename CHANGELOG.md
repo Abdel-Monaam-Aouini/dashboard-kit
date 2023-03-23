@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.7.0...v1.8.0) (2023-03-23)
+
+
+### Features
+
+* automerge PR ([b359a78](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/b359a781500883c70b2b22c77e92b04e71d6465f))
+
 # [1.7.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.6.0...v1.7.0) (2023-03-21)
 
 
