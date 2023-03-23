@@ -104,17 +104,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [deploy]
     steps:
-      - id: automerge
-        name: automerge
-        uses: "pascalgn/automerge-action@v0.15.6"
-        env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          LOG: "TRACE"  # or "DEBUG"
-          MERGE_LABELS: "automerge,!work in progress"
-          MERGE_REMOVE_LABELS: "automerge"
-          MERGE_METHOD: "squash"
-          MERGE_REQUIRED_APPROVALS: "0"
-      - name: feedback
-        if: steps.automerge.outputs.mergeResult == '"merged"'
-        run: |
-          echo "Pull request ${{ steps.automerge.outputs.pullRequestNumber }} merged!"
+      - uses: alexwilson/enable-github-automerge-action@1.0.0
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          merge-method: "SQUASH"
