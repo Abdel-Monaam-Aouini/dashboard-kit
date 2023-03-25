@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.9.0...v1.10.0) (2023-03-25)
+
+
+### Features
+
+* bump sass from 1.59.3 to 1.60.0 ([53b2d9c](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/53b2d9cd1cf681774fb1fcf5c6324ba9ad2e16c5))
+
 # [1.9.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.8.0...v1.9.0) (2023-03-24)
 
 
