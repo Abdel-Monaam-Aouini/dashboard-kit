@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.11.0...v1.12.0) (2023-04-04)
+
+
+### Features
+
+* bump semantic-release from 20.1.3 to 21.0.1 ([a51a9b0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/a51a9b08376f24a540e2f2948f82ad5bec771566))
+
 # [1.11.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.10.0...v1.11.0) (2023-03-29)
 
 
