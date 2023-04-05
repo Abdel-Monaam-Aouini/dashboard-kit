@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.12.0...v1.13.0) (2023-04-05)
+
+
+### Features
+
+* bump web-vitals from 3.3.0 to 3.3.1 ([6950678](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/6950678cbeef9ad48d691779ce3ec15700165c49))
+
 # [1.12.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.11.0...v1.12.0) (2023-04-04)
 
 
