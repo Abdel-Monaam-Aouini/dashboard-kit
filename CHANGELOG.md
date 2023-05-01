@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.16.0...v1.17.0) (2023-05-01)
+
+
+### Features
+
+* bump @vitejs/plugin-react from 3.1.0 to 4.0.0 ([c28ce49](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/c28ce494f535c3dbe803adf802eb40cf8a0d5a10))
+
 # [1.16.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.15.0...v1.16.0) (2023-05-01)
 
 
