@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.17.0...v1.18.0) (2023-05-01)
+
+
+### Features
+
+* bump vitest from 0.30.0 to 0.30.1 ([#39](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/39)) ([8064f1c](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/8064f1ce9114b7d04dabd31e4441883ed8db75aa))
+
 # [1.17.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.16.0...v1.17.0) (2023-05-01)
 
 
