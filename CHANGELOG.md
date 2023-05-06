@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.21.0...v1.22.0) (2023-05-06)
+
+
+### Features
+
+* bump sass from 1.61.0 to 1.62.1 ([#44](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/44)) ([a0b37da](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/a0b37da12143badec6062e3f11fdf17704f7cdd7))
+
 # [1.21.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.20.0...v1.21.0) (2023-05-06)
 
 
