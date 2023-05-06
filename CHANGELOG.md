@@ -1,3 +1,39 @@
+# [1.23.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.22.0...v1.23.0) (2023-05-06)
+
+
+### Features
+
+* bump @semantic-release/release-notes-generator ([#46](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/46)) ([e59652e](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/e59652e07414d59e8655f5c7ef32ad8c9bbc3c9b))
+* bump @vitest/coverage-istanbul from 0.29.8 to 0.31.0 ([#52](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/52)) ([44611ca](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/44611ca335753d35200d879b6bc5854788522cd9))
+
+# [1.22.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.21.0...v1.22.0) (2023-05-06)
+
+
+### Features
+
+* bump sass from 1.61.0 to 1.62.1 ([#44](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/44)) ([a0b37da](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/a0b37da12143badec6062e3f11fdf17704f7cdd7))
+
+# [1.21.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.20.0...v1.21.0) (2023-05-06)
+
+
+### Features
+
+* bump vite from 4.3.4 to 4.3.5 ([#53](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/53)) ([de9aea5](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/de9aea5d1e7f68c0aa3bbd3bf11653543cc7bdab))
+
+# [1.20.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.19.0...v1.20.0) (2023-05-04)
+
+
+### Features
+
+* bump vitest from 0.30.1 to 0.31.0 ([#51](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/51)) ([afc6e8e](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/afc6e8e822aa193c6a61cd479775a6f66dfa960e))
+
+# [1.19.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.18.0...v1.19.0) (2023-05-04)
+
+
+### Features
+
+* bump vite from 4.2.0 to 4.3.4 ([#49](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/49)) ([f9e9b4d](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/f9e9b4d0ff17a247ddbbeb7a376c911777fd859f))
+
 # [1.18.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.17.0...v1.18.0) (2023-05-01)
 
 
