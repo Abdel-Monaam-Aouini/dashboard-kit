@@ -1,3 +1,11 @@
+# [1.23.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.22.0...v1.23.0) (2023-05-06)
+
+
+### Features
+
+* bump @semantic-release/release-notes-generator ([#46](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/46)) ([e59652e](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/e59652e07414d59e8655f5c7ef32ad8c9bbc3c9b))
+* bump @vitest/coverage-istanbul from 0.29.8 to 0.31.0 ([#52](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/52)) ([44611ca](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/44611ca335753d35200d879b6bc5854788522cd9))
+
 # [1.22.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.21.0...v1.22.0) (2023-05-06)
 
 
