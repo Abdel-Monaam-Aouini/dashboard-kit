@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.20.0...v1.21.0) (2023-05-06)
+
+
+### Features
+
+* bump vite from 4.3.4 to 4.3.5 ([#53](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/53)) ([de9aea5](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/de9aea5d1e7f68c0aa3bbd3bf11653543cc7bdab))
+
 # [1.20.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.19.0...v1.20.0) (2023-05-04)
 
 
