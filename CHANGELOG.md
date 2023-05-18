@@ -1,3 +1,12 @@
+# [1.24.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.23.0...v1.24.0) (2023-05-18)
+
+
+### Features
+
+* bump @vitest/coverage-istanbul from 0.31.0 to 0.31.1 ([#58](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/58)) ([cbc2702](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/cbc27022ec567e52f9a7d0dc8ae236e33210bc24))
+* bump vite from 4.3.5 to 4.3.7 ([#55](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/55)) ([c343e0c](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/c343e0cfc8262fa63a088165ca5e92ebde882311))
+* bump vitest from 0.31.0 to 0.31.1 ([#57](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/57)) ([ce064d9](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/ce064d9d29b403b1d6dec23a92f0d8b9a47c2e4c))
+
 # [1.23.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.22.0...v1.23.0) (2023-05-06)
 
 
