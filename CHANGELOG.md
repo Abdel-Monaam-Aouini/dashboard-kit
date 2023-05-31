@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.26.0...v1.27.0) (2023-05-31)
+
+
+### Features
+
+* bump @semantic-release/release-notes-generator ([#62](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/62)) ([00d8429](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/00d842947998750af0493ef084cee44f6a2f6c9c))
+
 # [1.26.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.25.0...v1.26.0) (2023-05-31)
 
 
