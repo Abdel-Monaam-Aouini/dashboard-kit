@@ -40,7 +40,7 @@
     "@semantic-release/github": "8.0.7",
     "@semantic-release/changelog": "6.0.2",
     "@semantic-release/commit-analyzer": "9.0.2",
-    "@semantic-release/release-notes-generator": "11.0.1",
+    "@semantic-release/release-notes-generator": "11.0.2",
     "@vitejs/plugin-react": "4.0.0",
     "@vitest/coverage-istanbul": "0.31.2",
     "sass": "1.62.1",
