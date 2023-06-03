@@ -1,3 +1,11 @@
+# [1.28.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.27.0...v1.28.0) (2023-06-03)
+
+
+### Features
+
+* bump @semantic-release/github from 8.0.7 to 9.0.0 ([#73](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/73)) ([6e8fb7e](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/6e8fb7e97deb5431a96ee647737775aed3611c72))
+* bump web-vitals from 3.3.1 to 3.3.2 ([#63](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/63)) ([62a648f](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/62a648f212028689675662bb92f0be90daf4dff2))
+
 # [1.27.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.26.0...v1.27.0) (2023-05-31)
 
 
