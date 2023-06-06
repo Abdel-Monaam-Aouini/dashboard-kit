@@ -1,3 +1,15 @@
+# [1.29.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.28.0...v1.29.0) (2023-06-06)
+
+
+### Features
+
+* bump @semantic-release/commit-analyzer from 9.0.2 to 10.0.0 ([#71](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/71)) ([a9618e0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/a9618e09fd14208cf35d1ec0e3b00553cfe344c0))
+* bump @semantic-release/github from 9.0.0 to 9.0.2 ([#74](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/74)) ([a0be023](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/a0be023cd6ec83a349e6633ee7dcd68b27530fd5))
+* bump @vitest/coverage-istanbul from 0.31.2 to 0.31.4 ([#69](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/69)) ([94e0dad](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/94e0dad1c48010d0f342d584431513e4da66bef7))
+* bump semantic-release from 21.0.2 to 21.0.3 ([#72](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/72)) ([180dba8](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/180dba8f545aabc49f6ed4e27915b9a878e43ba4))
+* bump standard from 17.0.0 to 17.1.0 ([#64](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/64)) ([d1bcbb4](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/d1bcbb404aec8ca0960a2c6d0e428dd85955c2a1))
+* bump vitest from 0.31.1 to 0.31.4 ([#70](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/70)) ([f1e628a](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/f1e628ad675d4172881e2d61d4914ec1c83eae33))
+
 # [1.28.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.27.0...v1.28.0) (2023-06-03)
 
 
