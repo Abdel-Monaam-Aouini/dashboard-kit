@@ -43,7 +43,7 @@
     "@semantic-release/release-notes-generator": "11.0.3",
     "@vitejs/plugin-react": "4.0.1",
     "@vitest/coverage-istanbul": "0.32.2",
-    "sass": "1.63.4",
+    "sass": "1.63.6",
     "semantic-release": "21.0.5",
     "standard": "17.1.0",
     "vite": "4.3.9",
