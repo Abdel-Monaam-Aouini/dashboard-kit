@@ -39,7 +39,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.0.4",
     "@semantic-release/changelog": "6.0.2",
-    "@semantic-release/commit-analyzer": "10.0.1",
+    "@semantic-release/commit-analyzer": "10.0.4",
     "@semantic-release/release-notes-generator": "11.0.4",
     "@vitejs/plugin-react": "4.0.4",
     "@vitest/coverage-istanbul": "0.34.3",
