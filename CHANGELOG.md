@@ -1,3 +1,10 @@
+# [1.31.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.30.0...v1.31.0) (2024-01-09)
+
+
+### Features
+
+* bump vitest and @vitest/coverage-istanbul ([#209](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/issues/209)) ([f7f7d61](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/commit/f7f7d6154f6dda2c706b340cd31f03f060a7cd18))
+
 # [1.30.0](https://github.com/Abdel-Monaam-Aouini/dashboard-kit/compare/v1.29.0...v1.30.0) (2024-01-09)
 
 
