@@ -13,3 +13,5 @@ deploy
 auto-merge dependabot
 semantic release
 
+some fun :D :P
+
