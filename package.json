@@ -42,7 +42,7 @@
     "@semantic-release/commit-analyzer": "10.0.4",
     "@semantic-release/release-notes-generator": "11.0.7",
     "@vitejs/plugin-react": "4.2.1",
-    "@vitest/coverage-istanbul": "1.2.1",
+    "@vitest/coverage-istanbul": "1.2.2",
     "sass": "1.70.0",
     "semantic-release": "23.0.0",
     "standard": "17.1.0",
