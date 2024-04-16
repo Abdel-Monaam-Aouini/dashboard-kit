@@ -46,7 +46,7 @@
     "sass": "1.75.0",
     "semantic-release": "23.0.8",
     "standard": "17.1.0",
-    "vite": "5.2.8",
+    "vite": "5.2.9",
     "vitest": "1.5.0"
   }
 }
