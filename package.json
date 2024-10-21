@@ -41,7 +41,7 @@
     "@semantic-release/changelog": "6.0.2",
     "@semantic-release/commit-analyzer": "13.0.0",
     "@semantic-release/release-notes-generator": "11.0.7",
-    "@vitejs/plugin-react": "4.3.2",
+    "@vitejs/plugin-react": "4.3.3",
     "@vitest/coverage-istanbul": "1.6.0",
     "sass": "1.80.2",
     "semantic-release": "23.1.1",
